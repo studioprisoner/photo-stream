@@ -26,6 +26,7 @@ We like to take photos and share them. Problem is it's hard to really own your p
 1. Fork this repo
 2. Clear the `photos/originals` directory
 3. Add your own photos
+4. To apply your own site settings like site title or twitter name. Edit `congig.yml` and replace attributes with your own.
 4. Deploy your forked copy to [Netlify](https://netlify.com) (free by default, you can add your own domain and analytics for a reasonable price)
 5. In your build & deploy settings, set "Build command" to `jekyll build` and "Publish directory" to `_site/`.
 6. Enjoy your very own photo stream!
@@ -53,6 +54,7 @@ brew install glib vips
 
 ## How to use
 Put photos in the `photos/originals` directory.
+
 
 ```sh
 bundle exec jekyll serve
